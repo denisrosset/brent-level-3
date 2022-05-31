@@ -1,0 +1,35 @@
+{
+
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.rulers": [99],
+    },
+    "black-formatter.args": ["--line-length", "99"],
+      "isort.args":["--profile", "black", "--line-length", "99"],
+    
+
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    
+
+    "python.analysis.indexing": true,
+    "python.analysis.diagnosticMode": "openFilesOnly", // you can put "workspace" when the project is mostly clean
+    "python.analysis.typeCheckingMode": "basic", // "off" if overwhelming, "strict" if you feel like it
+
+    "files.exclude": {
+        ".venv/": true,
+        "**/__pycache__": true,
+        "**/.mypy_cache": true,
+        "**/.pytest_cache": true,
+        "**/dist": true,
+        
+    },
+    
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "esbonio.sphinx.confDir": "",
+}
