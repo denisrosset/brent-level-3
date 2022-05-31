@@ -1,0 +1,499 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pydagogy_brent &#8212; pydagogy-brent</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet">
+  <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.css?digest=84ace793992934648b4de8eed757e5a2" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.9d8b4a8b9bb19db25eeaddc40d639ba2.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<div class="col-12 col-md-3 bd-sidebar site-navigation " id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+      
+      
+      <h1 class="site-logo" id="site-title">pydagogy-brent</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  General information
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../index.html">
+   Home page
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../other.html">
+   This is a blank page
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  API
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../api.html">
+   API
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../_autosummary/pydagogy_brent.html">
+     pydagogy_brent
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+    <label for="toctree-checkbox-2">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../_autosummary/pydagogy_brent.bisection_step.html">
+       bisection_step
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../_autosummary/pydagogy_brent.brent.html">
+       brent
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../_autosummary/pydagogy_brent.inverse_quadratic_interpolation_step.html">
+       inverse_quadratic_interpolation_step
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../_autosummary/pydagogy_brent.secant_step.html">
+       secant_step
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../_autosummary/pydagogy_brent.test_convergence.html">
+       test_convergence
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../_autosummary/pydagogy_brent.Settings.html">
+       Settings
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Theme by the <a href="https://ebp.jupyterbook.org">Executable Book Project</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<!-- This is an invisible pixel that we watch to see if we've scrolled. -->
+<div class="sbt-scroll-pixel-helper"></div>
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            <div class="topbar-left">
+                
+                <label class="nav-toggle-button" for="__navigation">
+                    <div class="visually-hidden">Toggle navigation</div>
+                    <i class="fas fa-bars"></i>
+                </label>
+                
+            </div>
+            
+            <!-- Source interaction buttons -->
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1></h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <h1>Source code for pydagogy_brent</h1><div class="highlight"><pre>
+<span></span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Root-finding solver based on Brent&#39;s method</span>
+
+<span class="sd">See `&lt;https://en.wikipedia.org/wiki/Brent%27s_method&gt;`_</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="c1"># pylint: disable=C0103</span>
+
+<span class="kn">from</span> <span class="nn">dataclasses</span> <span class="kn">import</span> <span class="n">dataclass</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Callable</span><span class="p">,</span> <span class="n">Optional</span><span class="p">,</span> <span class="n">Tuple</span>
+
+<span class="kn">from</span> <span class="nn">rich.console</span> <span class="kn">import</span> <span class="n">Console</span>
+<span class="kn">from</span> <span class="nn">rich.table</span> <span class="kn">import</span> <span class="n">Table</span>
+
+<span class="n">__version__</span> <span class="o">=</span> <span class="s2">&quot;0.0.1&quot;</span>
+<span class="n">__all__</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Settings&quot;</span><span class="p">,</span> <span class="s2">&quot;brent&quot;</span><span class="p">]</span>
+
+
+<div class="viewcode-block" id="Settings"><a class="viewcode-back" href="../_autosummary/pydagogy_brent.Settings.html#pydagogy_brent.Settings">[docs]</a><span class="nd">@dataclass</span>
+<span class="k">class</span> <span class="nc">Settings</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Describes the settings used in Brent&#39;s algorithm</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="c1">#: X relative tolerance</span>
+    <span class="n">x_rel_tol</span><span class="p">:</span> <span class="nb">float</span>
+
+    <span class="c1">#: X absolute tolerance</span>
+    <span class="n">x_abs_tol</span><span class="p">:</span> <span class="nb">float</span>
+
+    <span class="c1">#: Y absolute tolerance</span>
+    <span class="n">y_tol</span><span class="p">:</span> <span class="nb">float</span>
+
+    <span class="c1">#: Whether to display progress</span>
+    <span class="n">verbose</span><span class="p">:</span> <span class="nb">bool</span></div>
+
+
+<div class="viewcode-block" id="test_convergence"><a class="viewcode-back" href="../_autosummary/pydagogy_brent.test_convergence.html#pydagogy_brent.test_convergence">[docs]</a><span class="k">def</span> <span class="nf">test_convergence</span><span class="p">(</span><span class="n">a</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span> <span class="n">fb</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span> <span class="n">s</span><span class="p">:</span> <span class="n">Settings</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">bool</span><span class="p">,</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]]:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Checks convergence of a root finding method</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        a: Contrapoint</span>
+<span class="sd">        b: Best guess</span>
+<span class="sd">        fb: f(b)</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        Whether the root finding converges to the specified tolerance and why</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">fb</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="s2">&quot;Exact root found&quot;</span><span class="p">)</span>
+    <span class="n">x_delta</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">x_delta</span> <span class="o">&lt;=</span> <span class="n">s</span><span class="o">.</span><span class="n">x_abs_tol</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="s2">&quot;Met x_abs_tol criterion&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">x_delta</span> <span class="o">/</span> <span class="nb">max</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="n">s</span><span class="o">.</span><span class="n">x_rel_tol</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="s2">&quot;Met x_rel_tol criterion&quot;</span><span class="p">)</span>
+    <span class="n">y_delta</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">fb</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">y_delta</span> <span class="o">&lt;=</span> <span class="n">s</span><span class="o">.</span><span class="n">y_tol</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="s2">&quot;Met y_tol criterion&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">(</span><span class="kc">False</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="inverse_quadratic_interpolation_step"><a class="viewcode-back" href="../_autosummary/pydagogy_brent.inverse_quadratic_interpolation_step.html#pydagogy_brent.inverse_quadratic_interpolation_step">[docs]</a><span class="k">def</span> <span class="nf">inverse_quadratic_interpolation_step</span><span class="p">(</span>
+    <span class="n">a</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span> <span class="n">c</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span> <span class="n">fa</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span> <span class="n">fb</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span> <span class="n">fc</span><span class="p">:</span> <span class="nb">float</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">float</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Computes an approximation for a zero of a 1D function from three function values</span>
+
+<span class="sd">    Note:</span>
+<span class="sd">        The values ``fa``, ``fb``, ``fc`` need all to be distinct.</span>
+
+<span class="sd">    See `&lt;https://en.wikipedia.org/wiki/Inverse_quadratic_interpolation&gt;`_</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        a: First x coordinate</span>
+<span class="sd">        b: Second x coordinate</span>
+<span class="sd">        c: Third x coordinate</span>
+<span class="sd">        fa: f(a)</span>
+<span class="sd">        fb: f(b)</span>
+<span class="sd">        fc: f(c)</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        An approximation of the zero</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">L0</span> <span class="o">=</span> <span class="p">(</span><span class="n">a</span> <span class="o">*</span> <span class="n">fb</span> <span class="o">*</span> <span class="n">fc</span><span class="p">)</span> <span class="o">/</span> <span class="p">((</span><span class="n">fa</span> <span class="o">-</span> <span class="n">fb</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="n">fa</span> <span class="o">-</span> <span class="n">fc</span><span class="p">))</span>
+    <span class="n">L1</span> <span class="o">=</span> <span class="p">(</span><span class="n">b</span> <span class="o">*</span> <span class="n">fa</span> <span class="o">*</span> <span class="n">fc</span><span class="p">)</span> <span class="o">/</span> <span class="p">((</span><span class="n">fb</span> <span class="o">-</span> <span class="n">fa</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="n">fb</span> <span class="o">-</span> <span class="n">fc</span><span class="p">))</span>
+    <span class="n">L2</span> <span class="o">=</span> <span class="p">(</span><span class="n">c</span> <span class="o">*</span> <span class="n">fb</span> <span class="o">*</span> <span class="n">fa</span><span class="p">)</span> <span class="o">/</span> <span class="p">((</span><span class="n">fc</span> <span class="o">-</span> <span class="n">fa</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="n">fc</span> <span class="o">-</span> <span class="n">fb</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">L0</span> <span class="o">+</span> <span class="n">L1</span> <span class="o">+</span> <span class="n">L2</span></div>
+
+
+<div class="viewcode-block" id="secant_step"><a class="viewcode-back" href="../_autosummary/pydagogy_brent.secant_step.html#pydagogy_brent.secant_step">[docs]</a><span class="k">def</span> <span class="nf">secant_step</span><span class="p">(</span><span class="n">a</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span> <span class="n">fa</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span> <span class="n">fb</span><span class="p">:</span> <span class="nb">float</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">float</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Computes an approximation for a zero of a 1D function from two function values</span>
+
+<span class="sd">    Note:</span>
+<span class="sd">        The values ``fa`` and ``fb`` need to have a different sign.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        a: First x coordinate</span>
+<span class="sd">        b: Second x coordinate</span>
+<span class="sd">        fa: f(a)</span>
+<span class="sd">        fb: f(b)</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        An approximation of the zero</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">b</span> <span class="o">-</span> <span class="n">fb</span> <span class="o">*</span> <span class="p">(</span><span class="n">b</span> <span class="o">-</span> <span class="n">a</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">fb</span> <span class="o">-</span> <span class="n">fa</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="bisection_step"><a class="viewcode-back" href="../_autosummary/pydagogy_brent.bisection_step.html#pydagogy_brent.bisection_step">[docs]</a><span class="k">def</span> <span class="nf">bisection_step</span><span class="p">(</span><span class="n">a</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span> <span class="nb">float</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">float</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Computes an approximation for a zero of a 1D function from two function values</span>
+
+<span class="sd">    Note:</span>
+<span class="sd">        The values ``f(a)`` and ``f(b)`` (not needed in the code) need to have a different sign.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        a: First x coordinate</span>
+<span class="sd">        b: Second x coordinate</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        An approximation of the zero</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="nb">min</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="o">+</span> <span class="nb">abs</span><span class="p">(</span><span class="n">b</span> <span class="o">-</span> <span class="n">a</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span></div>
+
+
+<div class="viewcode-block" id="brent"><a class="viewcode-back" href="../_autosummary/pydagogy_brent.brent.html#pydagogy_brent.brent">[docs]</a><span class="k">def</span> <span class="nf">brent</span><span class="p">(</span><span class="n">f</span><span class="p">:</span> <span class="n">Callable</span><span class="p">[[</span><span class="nb">float</span><span class="p">],</span> <span class="nb">float</span><span class="p">],</span> <span class="n">a</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span> <span class="n">settings</span><span class="p">:</span> <span class="n">Settings</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">float</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Finds the root of a function using Brent&#39;s method, starting from an interval enclosing the zero</span>
+
+<span class="sd">    Example:</span>
+<span class="sd">        &gt;&gt;&gt; import math</span>
+<span class="sd">        &gt;&gt;&gt; s = Settings(1e-12, 1e-12, 1e-12, False)</span>
+<span class="sd">        &gt;&gt;&gt; brent(math.cos, 0.0, 3.0, s)</span>
+<span class="sd">            1.5708</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        f: Function to find the root of</span>
+<span class="sd">        a: First x coordinate enclosing the root</span>
+<span class="sd">        b: Second x coordinate enclosing the root</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        The approximate root</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">if</span> <span class="n">settings</span><span class="o">.</span><span class="n">verbose</span><span class="p">:</span>
+
+        <span class="n">table_settings</span> <span class="o">=</span> <span class="n">Table</span><span class="p">()</span>
+        <span class="n">table_settings</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">&quot;Parameter&quot;</span><span class="p">,</span> <span class="n">justify</span><span class="o">=</span><span class="s2">&quot;right&quot;</span><span class="p">)</span>
+        <span class="n">table_settings</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">&quot;Value&quot;</span><span class="p">,</span> <span class="n">justify</span><span class="o">=</span><span class="s2">&quot;left&quot;</span><span class="p">)</span>
+
+        <span class="n">table_settings</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span><span class="s2">&quot;X absolute tolerance&quot;</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">settings</span><span class="o">.</span><span class="n">x_abs_tol</span><span class="si">:</span><span class="s2">.2e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">table_settings</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span><span class="s2">&quot;X relative tolerance&quot;</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">settings</span><span class="o">.</span><span class="n">x_rel_tol</span><span class="si">:</span><span class="s2">.2e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">table_settings</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span><span class="s2">&quot;Y tolerance&quot;</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">settings</span><span class="o">.</span><span class="n">y_tol</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">console</span> <span class="o">=</span> <span class="n">Console</span><span class="p">()</span>
+        <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="n">table_settings</span><span class="p">)</span>
+
+    <span class="n">fa</span> <span class="o">=</span> <span class="n">f</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>  <span class="c1">#: f(a)</span>
+    <span class="n">fb</span> <span class="o">=</span> <span class="n">f</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>  <span class="c1">#: f(b)</span>
+
+    <span class="k">assert</span> <span class="n">fa</span> <span class="o">*</span> <span class="n">fb</span> <span class="o">&lt;=</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;Root not bracketed&quot;</span>
+
+    <span class="k">if</span> <span class="nb">abs</span><span class="p">(</span><span class="n">fa</span><span class="p">)</span> <span class="o">&lt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">fb</span><span class="p">):</span>
+        <span class="c1"># force abs(fa) &gt;= abs(fb), make sure that b is the best root approximation known so far</span>
+        <span class="c1"># and a is the contrapoint</span>
+        <span class="n">b</span><span class="p">,</span> <span class="n">a</span> <span class="o">=</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span>
+        <span class="n">fb</span><span class="p">,</span> <span class="n">fa</span> <span class="o">=</span> <span class="n">fa</span><span class="p">,</span> <span class="n">fb</span>
+
+    <span class="n">c</span> <span class="o">=</span> <span class="n">a</span>  <span class="c1">#: Previous iterate</span>
+    <span class="n">fc</span> <span class="o">=</span> <span class="n">fa</span>  <span class="c1">#: f(c)</span>
+    <span class="n">d</span> <span class="o">=</span> <span class="n">a</span>  <span class="c1">#: Iterate before the previous iterate</span>
+    <span class="n">last_step</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">step</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">n_iters</span> <span class="o">=</span> <span class="mi">1</span>  <span class="c1">#: Current iteration number (1-based)</span>
+    <span class="n">converged</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">reason</span> <span class="o">=</span> <span class="kc">None</span>
+
+    <span class="n">table_results</span><span class="p">:</span> <span class="n">Table</span> <span class="o">=</span> <span class="n">Table</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">add_row</span><span class="p">():</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Prints information about an iteration</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">dx</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="p">)</span>
+        <span class="n">dy</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">fa</span> <span class="o">-</span> <span class="n">fb</span><span class="p">)</span>
+        <span class="n">table_results</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+            <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">n_iters</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">b</span><span class="si">:</span><span class="s2">.6e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">fb</span><span class="si">:</span><span class="s2">.1e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">dx</span><span class="si">:</span><span class="s2">.1e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">dy</span><span class="si">:</span><span class="s2">.1e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">last_step</span><span class="si">}</span><span class="s2">&quot;</span>
+        <span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">settings</span><span class="o">.</span><span class="n">verbose</span><span class="p">:</span>
+        <span class="n">table_results</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">&quot;Iter&quot;</span><span class="p">)</span>
+        <span class="n">table_results</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">&quot;x&quot;</span><span class="p">,</span> <span class="n">justify</span><span class="o">=</span><span class="s2">&quot;right&quot;</span><span class="p">)</span>
+        <span class="n">table_results</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">&quot;f(x)&quot;</span><span class="p">,</span> <span class="n">justify</span><span class="o">=</span><span class="s2">&quot;right&quot;</span><span class="p">)</span>
+        <span class="n">table_results</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">&quot;delta(x)&quot;</span><span class="p">,</span> <span class="n">justify</span><span class="o">=</span><span class="s2">&quot;right&quot;</span><span class="p">)</span>
+        <span class="n">table_results</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">&quot;delta(f(x))&quot;</span><span class="p">,</span> <span class="n">justify</span><span class="o">=</span><span class="s2">&quot;right&quot;</span><span class="p">)</span>
+        <span class="n">table_results</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">&quot;step&quot;</span><span class="p">,</span> <span class="n">justify</span><span class="o">=</span><span class="s2">&quot;right&quot;</span><span class="p">)</span>
+        <span class="n">add_row</span><span class="p">()</span>
+
+    <span class="k">while</span> <span class="ow">not</span> <span class="n">converged</span><span class="p">:</span>
+        <span class="n">n_iters</span> <span class="o">=</span> <span class="n">n_iters</span> <span class="o">+</span> <span class="mi">1</span>
+        <span class="n">last_step</span> <span class="o">=</span> <span class="n">step</span>
+        <span class="k">if</span> <span class="n">fa</span> <span class="o">!=</span> <span class="n">fc</span> <span class="ow">and</span> <span class="n">fb</span> <span class="o">!=</span> <span class="n">fc</span><span class="p">:</span>
+            <span class="n">s</span> <span class="o">=</span> <span class="n">inverse_quadratic_interpolation_step</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span> <span class="n">fa</span><span class="p">,</span> <span class="n">fb</span><span class="p">,</span> <span class="n">fc</span><span class="p">)</span>
+            <span class="n">step</span> <span class="o">=</span> <span class="s2">&quot;quadratic&quot;</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">s</span> <span class="o">=</span> <span class="n">secant_step</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">fa</span><span class="p">,</span> <span class="n">fb</span><span class="p">)</span>
+            <span class="n">step</span> <span class="o">=</span> <span class="s2">&quot;secant&quot;</span>
+        <span class="n">perform_bisection</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="k">if</span> <span class="n">a</span> <span class="o">&lt;=</span> <span class="n">b</span> <span class="ow">and</span> <span class="ow">not</span> <span class="p">((</span><span class="mi">3</span> <span class="o">*</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span> <span class="o">/</span> <span class="mi">4</span> <span class="o">&lt;=</span> <span class="n">s</span> <span class="o">&lt;=</span> <span class="n">b</span><span class="p">):</span>  <span class="c1"># pylint: disable=C0325</span>
+            <span class="n">perform_bisection</span> <span class="o">=</span> <span class="kc">True</span>
+        <span class="k">elif</span> <span class="n">b</span> <span class="o">&lt;=</span> <span class="n">a</span> <span class="ow">and</span> <span class="ow">not</span> <span class="p">(</span><span class="n">b</span> <span class="o">&lt;=</span> <span class="n">s</span> <span class="o">&lt;=</span> <span class="p">(</span><span class="mi">3</span> <span class="o">*</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span> <span class="o">/</span> <span class="mi">4</span><span class="p">):</span>  <span class="c1"># pylint: disable=C0325</span>
+            <span class="n">perform_bisection</span> <span class="o">=</span> <span class="kc">True</span>
+        <span class="k">elif</span> <span class="n">last_step</span> <span class="o">==</span> <span class="s2">&quot;bisection&quot;</span> <span class="ow">and</span> <span class="nb">abs</span><span class="p">(</span><span class="n">s</span> <span class="o">-</span> <span class="n">b</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">b</span> <span class="o">-</span> <span class="n">c</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">:</span>
+            <span class="n">perform_bisection</span> <span class="o">=</span> <span class="kc">True</span>
+        <span class="k">elif</span> <span class="n">last_step</span> <span class="o">!=</span> <span class="s2">&quot;bisection&quot;</span> <span class="ow">and</span> <span class="nb">abs</span><span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">c</span> <span class="o">-</span> <span class="n">d</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">:</span>
+            <span class="n">perform_bisection</span> <span class="o">=</span> <span class="kc">True</span>
+        <span class="k">elif</span> <span class="n">last_step</span> <span class="o">==</span> <span class="s2">&quot;bisection&quot;</span> <span class="ow">and</span> <span class="nb">abs</span><span class="p">(</span><span class="n">b</span> <span class="o">-</span> <span class="n">c</span><span class="p">)</span> <span class="o">&lt;</span> <span class="n">settings</span><span class="o">.</span><span class="n">x_abs_tol</span><span class="p">:</span>
+            <span class="n">perform_bisection</span> <span class="o">=</span> <span class="kc">True</span>
+        <span class="k">elif</span> <span class="n">last_step</span> <span class="o">!=</span> <span class="s2">&quot;bisection&quot;</span> <span class="ow">and</span> <span class="nb">abs</span><span class="p">(</span><span class="n">c</span> <span class="o">-</span> <span class="n">d</span><span class="p">)</span> <span class="o">&lt;</span> <span class="n">settings</span><span class="o">.</span><span class="n">x_abs_tol</span><span class="p">:</span>
+            <span class="n">perform_bisection</span> <span class="o">=</span> <span class="kc">True</span>
+        <span class="k">if</span> <span class="n">perform_bisection</span><span class="p">:</span>
+            <span class="n">s</span> <span class="o">=</span> <span class="n">bisection_step</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+            <span class="n">step</span> <span class="o">=</span> <span class="s2">&quot;bisection&quot;</span>
+        <span class="n">fs</span> <span class="o">=</span> <span class="n">f</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+        <span class="n">d</span> <span class="o">=</span> <span class="n">c</span>
+        <span class="n">c</span> <span class="o">=</span> <span class="n">b</span>
+        <span class="n">fc</span> <span class="o">=</span> <span class="n">fb</span>
+        <span class="c1"># check which point to replace to maintain (a,b) have different signs</span>
+        <span class="k">if</span> <span class="n">f</span><span class="p">(</span><span class="n">a</span><span class="p">)</span> <span class="o">*</span> <span class="n">f</span><span class="p">(</span><span class="n">s</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">b</span> <span class="o">=</span> <span class="n">s</span>
+            <span class="n">fb</span> <span class="o">=</span> <span class="n">fs</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">a</span> <span class="o">=</span> <span class="n">s</span>
+            <span class="n">fa</span> <span class="o">=</span> <span class="n">fs</span>
+        <span class="c1"># keep b as the best guess</span>
+        <span class="k">if</span> <span class="nb">abs</span><span class="p">(</span><span class="n">fa</span><span class="p">)</span> <span class="o">&lt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">fb</span><span class="p">):</span>
+            <span class="n">b</span><span class="p">,</span> <span class="n">a</span> <span class="o">=</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span>
+            <span class="n">fb</span><span class="p">,</span> <span class="n">fa</span> <span class="o">=</span> <span class="n">fa</span><span class="p">,</span> <span class="n">fb</span>
+        <span class="n">converged</span><span class="p">,</span> <span class="n">reason</span> <span class="o">=</span> <span class="n">test_convergence</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">fb</span><span class="p">,</span> <span class="n">settings</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">settings</span><span class="o">.</span><span class="n">verbose</span><span class="p">:</span>
+            <span class="n">add_row</span><span class="p">()</span>
+
+    <span class="k">if</span> <span class="n">settings</span><span class="o">.</span><span class="n">verbose</span><span class="p">:</span>
+        <span class="n">console</span> <span class="o">=</span> <span class="n">Console</span><span class="p">()</span>
+        <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="n">table_results</span><span class="p">)</span>
+        <span class="k">assert</span> <span class="n">reason</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">reason</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">b</span></div>
+</pre></div>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+        &copy; Copyright 2022, Denis Rosset.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>
